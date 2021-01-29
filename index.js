@@ -17,6 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
+// Closures let a child-level scope access functions from a parent level scope. Things can be passed down to childs, but not back up to parent.
 
 
 
