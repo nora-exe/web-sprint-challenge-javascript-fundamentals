@@ -27,13 +27,27 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+> .forEach does not return a new array and requires creating a new array, while .map DOES return an array and can therefore be used for easily converting data.
+
 2. Explain the difference between a callback and a higher order function.
+
+> Higher order functions *receive* callback functions (a pre-existing function) as an argument.
 
 3. What is closure?
 
+> Clear communication & acceptance after a breakup.
+> Also the ability to reach outside current scope into a parent scope for data (not into a lower or child scope - data can only be passed down, not back up)
+
 4. Describe the four rules of the 'this' keyword.
 
+> Window binding: if 'this' is used improperly, defaults to window/browser; also if outside a code block and/or none of the other rules apply.
+> Implicit binding: whatever 'this' is inside - most common rule. Applies to objects with methods, such that when the function is invoked, left of the dot is what 'this' refers to.
+> Explicit binding: **call** a function, supply it with the object to assign 'this' to, therefore *explicitly* declaring what 'this' refers to by passing the object into .call as an argument.
+> New binding: when a function is invoked as a **constructor**, 'this' refers to the new object.
+
 5. Why do we need super() in an extended class?
+
+> extends and super do what .call and Object.create did. Super passes on the Parent's properties, but isn't necessary if the Parent doesn't have any properties to pass down. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
